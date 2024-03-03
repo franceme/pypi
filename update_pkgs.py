@@ -55,11 +55,11 @@ if __name__ == "__main__":
     homepage = 'https://github.com/franceme/mydependency'
     execute_main(pkg_name, versions, short_desc, homepage)
     
-    # private
-    pkg_name = "private"
+    # xrixri
+    pkg_name = "xrixri"
     versions = ["v0.4.5"]
-    short_desc = 'This is an example of a private, github-hosted package. Only me can access this repo, you can try to install it with the pip command but a password is required : only people with repo access can download it.'
-    homepage = 'https://github.com/franceme/private'
+    short_desc = 'This is an example of a xrixri, github-hosted package. Only me can access this repo, you can try to install it with the pip command but a password is required : only people with repo access can download it.'
+    homepage = 'https://github.com/franceme/xrixri'
     execute_main(pkg_name, versions, short_desc, homepage)
     
     

@@ -41,7 +41,7 @@
           <path d="M15 25l10-10v5h10v10h-10v5z" fill="white" />
         </svg>
       </button>
-      private
+      xrixri
       <span>
       </span>
       <span id='latest-version' class="version">
@@ -54,12 +54,12 @@
     
     <pre id='installdanger' hidden>
       <button class="danger-button" disabled>
-        DANGER ! A higher version of <i>private</i> already exists on PyPi
+        DANGER ! A higher version of <i>xrixri</i> already exists on PyPi
       </button>
     </pre>
     
     <pre id='installcmd'>
-      <code>pip install private --extra-index-url https://franceme.github.io/pypi/</code>
+      <code>pip install xrixri --extra-index-url https://franceme.github.io/pypi/</code>
     </pre>
     
     <hr />
@@ -69,7 +69,7 @@
         <b>
           Project links
         </b>
-        <button id="repoHomepage" onclick="openLinkInNewTab('https://github.com/franceme/private')">
+        <button id="repoHomepage" onclick="openLinkInNewTab('https://github.com/franceme/xrixri')">
           Homepage
         </button>
         <p class="elem">
@@ -80,7 +80,7 @@
         </p>
         <section class="versions" id="versions">
           <div id="v0.0.0" onclick="load_readme('v0.0.0', scroll_to_div=true)">
-            <a href="git+https://github.com/franceme/private@v0.0.0#egg=private-0.0.0">
+            <a href="git+https://github.com/franceme/xrixri@v0.0.0#egg=xrixri-0.0.0">
               0.0.0
             </a>
           </div>
@@ -98,12 +98,12 @@
   </div>
   
   <script>
-    var url_readme_main = 'https://raw.githubusercontent.com/franceme/private/main/README.md';
+    var url_readme_main = 'https://raw.githubusercontent.com/franceme/xrixri/main/README.md';
     
     $(document).ready(function () {
       var this_vers = document.getElementById('latest-main-version').textContent.trim();
       document.getElementById(this_vers).classList.add('main');
-      check_supply_chain_attack("private", this_vers, warn_unsafe);
+      check_supply_chain_attack("xrixri", this_vers, warn_unsafe);
     
       if (window.location.hash != "") {
         let version_hash = window.location.hash;
