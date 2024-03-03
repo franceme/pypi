@@ -55,11 +55,11 @@ if __name__ == "__main__":
     homepage = 'https://github.com/franceme/mydependency'
     execute_main(pkg_name, versions, short_desc, homepage)
     
-    # private-hello
-    pkg_name = "private-hello"
+    # private
+    pkg_name = "private"
     versions = ["v0.4.5"]
     short_desc = 'This is an example of a private, github-hosted package. Only me can access this repo, you can try to install it with the pip command but a password is required : only people with repo access can download it.'
-    homepage = 'https://github.com/franceme/private-hello'
+    homepage = 'https://github.com/franceme/private'
     execute_main(pkg_name, versions, short_desc, homepage)
     
     

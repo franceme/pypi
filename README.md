@@ -64,9 +64,9 @@ pip install public-hello==0.1 --extra-index-url https://franceme.github.io/pypi/
 
 ---
 
-Now try to install the package `private-hello` :
+Now try to install the package `private` :
 ```console
-pip install private-hello --extra-index-url https://franceme.github.io/pypi/
+pip install private --extra-index-url https://franceme.github.io/pypi/
 ```
 
 _It will not work, because it's private and only me can access it !_
