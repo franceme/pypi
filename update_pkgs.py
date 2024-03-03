@@ -44,7 +44,7 @@ if __name__ == "__main__":
     pkg_name = "public-hello"
     versions = ["0.1", "0.2", "0.3.dev0"]
     short_desc = 'A public github-hosted repo, with a dependency to another package.'
-    homepage = 'https://github.com/astariul/public-hello'
+    homepage = 'https://github.com/franceme/public-hello'
     execute_main(pkg_name, versions, short_desc, homepage)
     
     
@@ -52,14 +52,14 @@ if __name__ == "__main__":
     pkg_name = "mydependency"
     versions = ["v1.0"]
     short_desc = 'A public github-hosted repo.'
-    homepage = 'https://github.com/astariul/mydependency'
+    homepage = 'https://github.com/franceme/mydependency'
     execute_main(pkg_name, versions, short_desc, homepage)
     
     # private-hello
     pkg_name = "private-hello"
     versions = ["v0.4.5"]
     short_desc = 'This is an example of a private, github-hosted package. Only me can access this repo, you can try to install it with the pip command but a password is required : only people with repo access can download it.'
-    homepage = 'https://github.com/astariul/private-hello'
+    homepage = 'https://github.com/franceme/private-hello'
     execute_main(pkg_name, versions, short_desc, homepage)
     
     
