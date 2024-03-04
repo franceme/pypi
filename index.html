@@ -29,7 +29,7 @@
     <br/>
     <br/>
     <h2 class="title">
-     YourCompany own PyPi
+     franceme own PyPi
     </h2>
    </section>
    <br/>
@@ -37,49 +37,13 @@
     Welcome to the xrixri Python package index of YourCompany !
     <br/>
     You can install packages with :
-    <pre><code>pip install &lt;package_name&gt; --extra-index-url https://franceme.github.io/pypi/</code></pre>
+    <pre><code>python3 -m pip install git+https://${{GITHUB_TOKEN}}@github.com/franceme/{repo_title}.git</code></pre>
    </p>
    <hr/>
    <h6 class="text-header">
     Packages
    </h6>
    <a class="card" href="xrixri/">xrixri<span></span><span class="version">0.0.0</span><br/><span class="description">This is an example of a xrixri, github-hosted package. Only me can access this repo, you can try to install it with the pip command but a password is required : only people with repo access can download it.</span></a>
-   <a class="card" href="mydependency/">
-    mydependency
-    <span>
-    </span>
-    <span class="version">
-     1.0
-    </span>
-    <br/>
-    <span class="description">
-     A public github-hosted repo.
-    </span>
-   </a>
-   <a class="card" href="public-hello/">
-    public-hello
-    <span>
-    </span>
-    <span class="version">
-     0.2
-    </span>
-    <br/>
-    <span class="description">
-     A public github-hosted repo, with a dependency to another package.
-    </span>
-   </a>
-   <a class="card" href="transformers/">
-    transformers
-    <span>
-    </span>
-    <span class="version">
-     3.0.0
-    </span>
-    <br/>
-    <span class="description">
-     A simulator for electrical components
-    </span>
-   </a>
   </div>
   <script>
    $(document).ready(function(){
